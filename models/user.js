@@ -3,17 +3,17 @@ const mongoose = require('mongoose');
 const UserSChema = new mongoose.Schema({
     name: {
         type: String,
-        require: True
+        require: true
     },
     email: {
         type: String,
-        require: True
+        require: true
     },
     password: {
         type: String,
-        require: True
+        require: true
     },
-    password: {
+    date: {
         type: Date,
         default: Date.now
     }
